@@ -1,0 +1,22 @@
+{
+  "name": "golden-api",
+  "version": "1.0.0",
+  "description": "This the api for our final project. this is the backend  for the fake webcite golden era games",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "Tyler D",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "helmet": "^5.0.2",
+    "mysql2": "^2.3.3",
+    "node-fetch": "^3.2.4",
+    "nodemon": "^2.0.16"
+  }
+}

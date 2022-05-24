@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200;300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Golden Era Games</title>  
+</head>
+<body>
+    <header class="header ">
+        <div class="container">
+            <div class="row header-row">
+                <div class="col-md-6 header-div d-flex justify-content-between">
+                    <div class="header-text-div">
+                        <h1 class="header-h1">Golden Era Games</h1>
+                        <h2 class="header-h2">www.geg.com</h2>
+                    </div>
+                    <div class="social-cont">
+                        <a href="www.twitter.com"><img src="./css/media/twitter-square.png" alt="twitter"></a>
+                        <a href="www.facebook.com"><img src="./css/media/facebook2.png" alt="twitter"></a>
+                        <a href="www.instagram.com"><img src="./css/media/instagram.png" alt="twitter"></a>
+                        <a href="www.youtube.com"><img class="yt" src="./css/media/youtube.png" alt="twitter"></a>
+                    </div>
+                </div>
+                <div class="col-md-6 nav-div">
+                    <nav class="header-nav">
+                        <input class="search" placeholder="search" type="text"/>
+                        <a href="./about.html" class="btn btn-geg">About Us</a>
+                        <a href="./index.html" class="btn btn-geg">Catalog</a>
+                        <a href="./cart.html" class="btn btn-geg">Your Cart</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 make-nav">
+                    <div class="Nintendo">
+                        <a href="" class="Nintendo">Nintendo</a>
+                    </div>
+                    <div class="PlayStation">
+                        <a href="" class="PlayStation">PlayStation</a>
+                    </div>
+                    <div class="Xbox">
+                        <a href="" class="Xbox">Xbox</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main-checkout">
+        <section class="container">
+            <div class="row">
+                <div class="col-md-12 checkout-div">
+                    <table class="table">
+                        <tr class="table-headers">
+                            <td>product name</td>
+                            <td>product code</td>
+                            <td>unit price</td>
+                            <td>quantity</td>
+                            <td>sub total</td>
+                        </tr>
+
+                        <tr class="totals" id="totals">
+                            <td colspan="4">
+                                <p class="total-subtotal" id="totalSubtotal">subtotal</p>
+                                <p class="total-shipping" id="totalShipping">Shipping</p>
+                                <p class="total-tax" id="totalTax">tax</p>
+                                <p class="total-total" id="totalTotal">total</p>
+                            </td>
+                            <td class="total-values" id="totalValues">
+                                <p class="subtotal-value" id="subtotalValue"></p>
+                                <p class="shipping-value" id="shippingValue">6.00</p>
+                                <p class="tax-value" id="taxValue"></p>
+                                <p class="total-value">$<span id="totalValue"></span></p>
+                                <button class="btn btn-geg">Checkout</button>
+                            
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-start">
+                    <p class="colophon">site by Tyler Daniels &copy; 2022 <span class="colophon-span">all rights resureved</span></p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end">
+                    <p>Back to <a href="#top">Top</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
+</body>
+</html>
